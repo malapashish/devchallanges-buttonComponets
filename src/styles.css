@@ -1,0 +1,207 @@
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+#FAFBFD */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #fafbfd;
+  --heading-color: #4f4f4f;
+  --buttons-heading-color: #333333;
+  --buttons-default-background: #e0e0e0;
+  --buttons-disabled-background: #aeaeae;
+  --buttons-options-heading-color: #828282;
+  --buttons-variant-font-color: #3d5afe;
+  --buttons-variant-hover-background: rgba(41, 98, 255, 0.1);
+  --default-button-color: #3f3f3f;
+  --disabled-button-background: #e0e0e0;
+  --disabled-button-font-color: #9e9e9e;
+  --icon-button-background: #2962ff;
+  --secondary-button-background: #455a64;
+  --error-button-background: #d32f2f;
+  --default-button-hover-background: #aeaeae;
+  --primary-button-hover-background: #0039cb;
+  --secondary-button-hover-background: #1c313a;
+  --danger-button-hover-background: #9a0007;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+/*******Buttons Section Start***************/
+.buttons-section {
+  margin: 70px 30px 40px 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-section-heading {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+
+.buttons-subsection {
+  /* display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px; */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.buttons-subsection-element {
+  width: 400px;
+}
+
+.button-subsection-button-type-heading {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400px;
+  color: var(--buttons-heading-color);
+}
+
+.buttons-subsection-button-options {
+  font-family: "Ubuntu Mono", monospace;
+  color: var(--buttons-options-heading-color);
+  font-weight: 400;
+}
+
+.btn {
+  border-radius: 6px;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  color: var(--default-button-color);
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  background-color: var(--buttons-default-background);
+  transition: 0.5s all;
+}
+
+.btn.non-variant.hover:hover {
+  background-color: var(--buttons-disabled-background);
+}
+
+.btn.outline {
+  color: var(--buttons-variant-font-color);
+  background: none;
+  border: 1px solid var(--buttons-variant-font-color);
+  box-shadow: none;
+}
+
+.btn.outline.hover:hover {
+  background-color: var(--buttons-variant-hover-background);
+}
+
+.btn.text {
+  color: var(--buttons-variant-font-color);
+  background: none;
+  box-shadow: none;
+}
+
+.btn.hover.text:hover {
+  background: var(--buttons-variant-hover-background);
+  border: none;
+}
+
+.btn.disable-shadow {
+  background-color: var(--buttons-variant-font-color);
+  color: #ffffff;
+  font-weight: 500;
+  box-shadow: none;
+}
+
+.btn.disable-btn {
+  background-color: var(--disabled-button-background);
+  color: var(--disabled-button-font-color);
+}
+
+.btn.disable-btn.text {
+  background-color: #ffffff;
+}
+
+.btn.icon {
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--icon-button-background);
+}
+
+.btn-icon {
+  font-size: 14px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.btn.sm {
+  padding: 10px;
+  font-size: 12px;
+  background-color: var(--icon-button-background);
+  color: #ffffff;
+}
+
+.btn.md {
+  padding: 12px;
+  font-size: 15px;
+  background-color: var(--icon-button-background);
+  color: #ffffff;
+}
+
+.btn.lg {
+  padding: 15px;
+  font-size: 17px;
+  background-color: var(--icon-button-background);
+  color: #ffffff;
+}
+
+.btn.primary {
+  background-color: var(--buttons-variant-font-color);
+  color: #ffffff;
+}
+
+.btn.secondary {
+  background-color: var(--secondary-button-background);
+  color: #ffffff;
+}
+
+.btn.danger {
+  background-color: var(--error-button-background);
+  color: #fff;
+}
+
+.btn.primary.hover {
+  margin-top: 38px;
+}
+
+.btn.primary.hover:hover {
+  background-color: var(--primary-button-hover-background);
+}
+
+.btn.secondary.hover {
+  margin-top: 38px;
+}
+
+.btn.secondary.hover:hover {
+  background-color: var(--secondary-button-hover-background);
+}
+
+.btn.danger.hover {
+  margin-top: 38px;
+}
+
+.btn.danger.hover:hover {
+  background-color: var(--danger-button-hover-background);
+}
+
+/*******Buttons Section end*******/
