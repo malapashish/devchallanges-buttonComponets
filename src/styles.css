@@ -204,4 +204,8 @@ body {
   background-color: var(--danger-button-hover-background);
 }
 
+.footer {
+  color: #a9a9a9;
+  font-family: "Montserrat", sans-serif;
+}
 /*******Buttons Section end*******/

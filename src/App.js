@@ -110,6 +110,7 @@ const App = () => {
                     <Button color = "danger" hover />
                 </div>
             </div>
+            <span className = 'footer'>created by <b>malapashish</b>  - devChallenges.io</span>
         </div>
     )
 }
