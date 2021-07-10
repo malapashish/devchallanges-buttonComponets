@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](E:\dev-challenges-buttonscomponents\src\images\demo_img.png)
+![screenshot](images/demo_img.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
