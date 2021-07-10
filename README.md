@@ -78,6 +78,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://ashi-portfolio.netlify.app/index.html)
-- GitHub [@your-username](https://github.com/malapashish)
-- Twitter [@your-twitter](https://twitter.com/malapashish10)
+- Website [portfolio](https://ashi-portfolio.netlify.app/index.html)
+- GitHub [malapashish](https://github.com/malapashish)
+- Twitter [malapashish](https://twitter.com/malapashish10)
